@@ -5,30 +5,26 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   
-  <!-- Atnaujinti meta duomenys -->
   <title>Mano CV</title>
   <meta name="description" content="Gustas Neverdauskas CV puslapis">
   <meta name="author" content="Gustas Neverdauskas">
   <meta content="automatika, cv, studentas, vilnius" name="keywords">
 
-  <!-- Favicons (Įsitikink, kad turi favicon.png paveiksliuką) -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
 </head>
 
 <body class="index-page">
@@ -37,11 +33,12 @@
 
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
-    <nav id="navmenu" class="navmenu">
+    <nav id="navmenu" class="navmenu">#
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Pagrindinis</span></a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i><span>Apie</span></a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Patirtis</span></a></li>
+        <li><a href="#competencies"><i class="bi bi-trophy navicon"></i><span>Kompetencijos</span></a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Atlikti darbai</span></a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Paslaugos</span></a></li>
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Kontaktai</span></a></li>
@@ -52,7 +49,6 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
 
       <img src="assets/img/hero-bg.jpg" alt="Hero fono nuotrauka">
@@ -72,9 +68,8 @@
         </div>
       </div>
 
-    </section><!-- /Hero Section -->
+    </section>
 
-    <!-- About Section -->
     <section id="about" class="about section">
 
       <div class="container section-title" data-aos="fade-up">
@@ -82,6 +77,11 @@
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
+        
+        <div class="css-shapes-wrapper">
+          <div class="shape-circle"></div>
+          <div class="shape-triangle"></div>
+        </div>
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
@@ -118,9 +118,8 @@
 
       </div>
 
-    </section><!-- /About Section -->
+    </section>
 
-    <!-- Skills Section -->
     <section id="skills" class="skills section">
 
       <div class="container section-title" data-aos="fade-up">
@@ -186,9 +185,8 @@
 
       </div>
 
-    </section><!-- /Skills Section -->
+    </section>
 
-    <!-- Resume Section -->
     <section id="resume" class="resume section">
 
       <div class="container section-title" data-aos="fade-up">
@@ -258,9 +256,137 @@
 
       </div>
 
-    </section><!-- /Resume Section -->
+    </section>
 
-    <!-- Portfolio Section -->
+
+
+
+
+
+
+
+    <section id="competencies" class="competencies section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Kompetencijų Pažanga</h2>
+        <p>Mano įgūdžių lavinimo kelionė ir pasiekimai</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        
+        <div class="competency-dashboard">
+          <div class="dashboard-card level-card">
+            <span class="dashboard-label">Esamas Lygis</span>
+            <span class="dashboard-value">3</span>
+          </div>
+          <div class="dashboard-card rank-card">
+            <span class="dashboard-label">Rangas</span>
+            <span class="dashboard-value">Specialistas</span>
+          </div>
+          <div class="dashboard-card stats-card">
+            <span class="dashboard-label">Bendras XP</span>
+            <span class="dashboard-value">220 <small>XP</small></span>
+          </div>
+          <div class="dashboard-card stats-card">
+            <span class="dashboard-label">Įgūdžiai (Atlikti / Visi)</span>
+            <span class="dashboard-value">3 / 7</span>
+          </div>
+          <div class="dashboard-card stats-card">
+            <span class="dashboard-label">Atlikta</span>
+            <span class="dashboard-value">42.8%</span>
+          </div>
+        </div>
+
+        <div class="xp-progress-section">
+          <div class="xp-progress-header">
+            <span>Kelias iki kito lygio (220 / 300 XP)</span>
+          </div>
+          <div class="xp-progress-bar-container">
+
+            <div class="xp-progress-fill" style="width: 72%;"></div>
+          </div>
+        </div>
+
+        <div class="kanban-board">
+          
+          <div class="kanban-column">
+            <h3 class="column-title planned-title">Planuojama</h3>
+            
+            <div class="skill-card" data-status="planned">
+              <h4>React.js</h4>
+              <div class="card-meta">
+                <span class="status-badge">Planuojama</span>
+                <span class="xp-badge">20 XP</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="kanban-column">
+            <h3 class="column-title learning-title">Mokomasi</h3>
+            
+            <div class="skill-card" data-status="learning">
+              <h4>Python</h4>
+              <div class="card-meta">
+                <span class="status-badge">Mokomasi</span>
+                <span class="xp-badge">50 XP</span>
+              </div>
+            </div>
+
+            <div class="skill-card" data-status="learning">
+              <h4>C / C++</h4>
+              <div class="card-meta">
+                <span class="status-badge">Mokomasi</span>
+                <span class="xp-badge">40 XP</span>
+              </div>
+            </div>
+
+            <div class="skill-card" data-status="learning">
+              <h4>JavaScript</h4>
+              <div class="card-meta">
+                <span class="status-badge">Mokomasi</span>
+                <span class="xp-badge">30 XP</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="kanban-column">
+            <h3 class="column-title completed-title">Atlikta</h3>
+            
+            <div class="skill-card" data-status="completed">
+              <h4>HTML / CSS</h4>
+              <div class="card-meta">
+                <span class="status-badge">Atlikta</span>
+                <span class="xp-badge">80 XP</span>
+              </div>
+            </div>
+
+            <div class="skill-card" data-status="completed">
+              <h4>MATLAB / Simulink</h4>
+              <div class="card-meta">
+                <span class="status-badge">Atlikta</span>
+                <span class="xp-badge">75 XP</span>
+              </div>
+            </div>
+
+            <div class="skill-card" data-status="completed">
+              <h4>PLC programavimas</h4>
+              <div class="card-meta">
+                <span class="status-badge">Atlikta</span>
+                <span class="xp-badge">65 XP</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    
+
+
+
+
     <section id="portfolio" class="portfolio section">
 
       <div class="container section-title" data-aos="fade-up">
@@ -280,7 +406,6 @@
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <!-- Darbas 1 -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-matlab">
               <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="MATLAB 3D grafikas 1">
               <div class="portfolio-info">
@@ -291,7 +416,6 @@
               </div>
             </div>
 
-            <!-- Darbas 2 -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-matlab">
               <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="MATLAB 3D grafikas 2">
               <div class="portfolio-info">
@@ -302,7 +426,6 @@
               </div>
             </div>
 
-            <!-- Darbas 3 -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-matlab">
               <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="MATLAB 3D grafikas 3">
               <div class="portfolio-info">
@@ -319,9 +442,8 @@
 
       </div>
 
-    </section><!-- /Portfolio Section -->
+    </section>
 
-    <!-- Services Section -->
     <section id="services" class="services section">
 
       <div class="container section-title" data-aos="fade-up">
@@ -330,7 +452,6 @@
 
       <div class="container">
         
-        <!-- Lentelė -->
         <div class="table-responsive mb-5" data-aos="fade-up">
           <table class="table table-bordered table-striped">
             <thead class="table-dark">
@@ -360,7 +481,6 @@
           </table>
         </div>
 
-        <!-- Sąrašai -->
         <div class="row mb-5" data-aos="fade-up" data-aos-delay="100">
           <div class="col-md-6">
             <h4>Naudojamos technologijos:</h4>
@@ -385,7 +505,6 @@
           </div>
         </div>
 
-        <!-- Medija -->
         <div class="row" data-aos="fade-up" data-aos-delay="200">
           <h3 class="mb-3">Medija</h3>
           
@@ -413,9 +532,8 @@
 
       </div>
 
-    </section><!-- /Services Section -->
+    </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="contact section">
 
       <div class="container section-title" data-aos="fade-up">
@@ -489,7 +607,7 @@
 
       </div>
 
-    </section><!-- /Contact Section -->
+    </section>
 
   </main>
 
@@ -515,13 +633,10 @@
     </div>
   </footer>
 
-  <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -533,7 +648,6 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
